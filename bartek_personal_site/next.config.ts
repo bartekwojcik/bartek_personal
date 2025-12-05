@@ -9,9 +9,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  // GitHub Pages serves from a subdirectory if using username.github.io/repo-name
-  // If deploying to custom domain or root (username.github.io), remove basePath
-  // basePath: '/your-repo-name',
+
+  // basePath: '/bartek_personal',
 };
 
 export default nextConfig;
