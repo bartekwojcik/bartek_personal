@@ -1,0 +1,12 @@
+/target
+/**/target
+/logs/*.*
+wrey_logs/*.*
+src/wrey_logs/*.*
+.env.local_secrets
+/.secrets/rabbitmq-secrets-digitalocean-production.yaml
+/.secrets/databases-secrets-digitalocean-production.yaml
+/.secrets/keycloak-secrets-digitalocean-production.yaml
+/.secrets/wrey-secrets-digitalocean-production.yaml
+/helm/shared/secrets-production.yaml
+/vps-deployment/.env.deployment.secrets
