@@ -3,9 +3,9 @@ name: Deploy Personal Site to GitHub Pages
 on:
   push:
     branches:
-      - V1.01  # Your current branch
+      - master
     paths:
-      - 'src/bartek_personal_site/**'
+      - 'bartek_personal_site/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,20 +33,20 @@ jobs:
         with:
           node-version: "20"
           cache: "npm"
-          cache-dependency-path: ./src/bartek_personal_site/package-lock.json
+          cache-dependency-path: ./bartek_personal_site/package-lock.json
 
       - name: Install dependencies
-        working-directory: ./src/bartek_personal_site
+        working-directory: ./bartek_personal_site
         run: npm ci
 
       - name: Build with Next.js
-        working-directory: ./src/bartek_personal_site
+        working-directory: ./bartek_personal_site
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src/bartek_personal_site/out
+          path: ./bartek_personal_site/out
 
   deploy:
     environment:
