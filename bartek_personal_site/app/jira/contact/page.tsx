@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function JiraContact() {
     return (
         <div className="min-h-screen bg-white text-slate-900">

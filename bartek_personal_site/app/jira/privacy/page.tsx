@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function JiraPrivacy() {
     return (
         <div className="min-h-screen bg-white text-slate-900">
@@ -61,7 +59,7 @@ export default function JiraPrivacy() {
                         Billing
                     </h2>
                     <p className="text-slate-700">
-                        None
+                        Only for more than 10 users, paid via Atlassian
                     </p>
                 </div>
 
