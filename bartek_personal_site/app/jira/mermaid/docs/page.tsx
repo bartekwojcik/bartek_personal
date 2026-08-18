@@ -39,25 +39,19 @@ export default function JiraMermaidDocs() {
                         Install from the Atlassian Marketplace, choose your site, confirm.
                     </p>
                     <p className="text-slate-700">
-                        There is nothing to configure. No account, no API key, no settings page.
-                        The app works as soon as the install finishes.
+                        There is nothing to configure.
                     </p>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-2xl font-semibold mb-4 text-emerald-700">
-                        Read this first
+                        Usage
                     </h2>
-                    <p className="text-slate-700 mb-4">
-                        Jira&apos;s code block editor has no Mermaid entry in its language dropdown.
-                        Do not look for one.
-                    </p>
                     <p className="text-slate-700">
                         The app recognises a diagram by how the source starts &mdash;
                         <span className="font-mono text-sm"> graph TD</span>,
                         <span className="font-mono text-sm"> sequenceDiagram</span>,
-                        <span className="font-mono text-sm"> gantt</span>, and so on. Leave the
-                        language of the code block alone.
+                        <span className="font-mono text-sm"> gantt</span>, and so on.
                     </p>
                 </div>
 
@@ -76,9 +70,6 @@ export default function JiraMermaidDocs() {
   A[Start] --> B{Ready?}
   B -->|Yes| C[Ship]
   B -->|No| A`}</Code>
-                    <p className="text-slate-700">
-                        If the panel says there are no diagrams, click Refresh.
-                    </p>
                 </div>
 
                 <div className="mb-10">
@@ -87,7 +78,7 @@ export default function JiraMermaidDocs() {
                     </h2>
                     <p className="text-slate-700 mb-4">
                         <span className="font-medium">Diagrams panel</span>, right-hand column of the
-                        issue. Always there, collapsible.
+                        issue.
                     </p>
                     <p className="text-slate-700 mb-4">
                         <span className="font-medium">Apps button</span> on the issue, then Diagrams.
