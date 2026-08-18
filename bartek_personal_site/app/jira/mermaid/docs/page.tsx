@@ -38,9 +38,6 @@ export default function JiraMermaidDocs() {
                     <p className="text-slate-700 mb-4">
                         Install from the Atlassian Marketplace, choose your site, confirm.
                     </p>
-                    <p className="text-slate-700">
-                        There is nothing to configure.
-                    </p>
                 </div>
 
                 <div className="mb-10">
@@ -48,7 +45,7 @@ export default function JiraMermaidDocs() {
                         Usage
                     </h2>
                     <p className="text-slate-700">
-                        The app recognises a diagram by how the source starts &mdash;
+                        The app recognises a diagram by how the source starts:
                         <span className="font-mono text-sm"> graph TD</span>,
                         <span className="font-mono text-sm"> sequenceDiagram</span>,
                         <span className="font-mono text-sm"> gantt</span>, and so on.
@@ -84,10 +81,6 @@ export default function JiraMermaidDocs() {
                         <span className="font-medium">Apps button</span> on the issue, then Diagrams.
                         Full width, better for wide diagrams.
                     </p>
-                    <p className="text-slate-700">
-                        When the panel is collapsed its row shows a count, so you can tell an issue
-                        has diagrams without opening it. Issues without diagrams show no count.
-                    </p>
                 </div>
 
                 <div className="mb-10">
@@ -97,10 +90,6 @@ export default function JiraMermaidDocs() {
                     <p className="text-slate-700 mb-4">
                         The issue description first, then every comment, oldest first. Code blocks
                         inside panels, expands, tables and lists are found too.
-                    </p>
-                    <p className="text-slate-700">
-                        Each diagram is labelled with where it came from. Diagrams are read as the
-                        signed-in user, so someone who cannot see an issue cannot see its diagrams.
                     </p>
                 </div>
 
@@ -231,10 +220,6 @@ export default function JiraMermaidDocs() {
                     <p className="text-slate-700 mb-4">
                         More than 10 users: everything, paid via Atlassian.
                     </p>
-                    <p className="text-slate-700">
-                        If a subscription lapses, diagrams still render. A renewal notice appears and
-                        downloads stop. Diagrams never become unreadable.
-                    </p>
                 </div>
 
                 <div className="mb-10">
@@ -295,9 +280,6 @@ export default function JiraMermaidDocs() {
                     <h2 className="text-lg font-semibold mb-3">
                         Support
                     </h2>
-                    <p className="text-slate-700 mb-2">
-                        Bug reports and feature requests are answered within two working days.
-                    </p>
                     <p className="text-slate-700">
                         <a
                             href="mailto:bartek.bordeaux@gmail.com"
