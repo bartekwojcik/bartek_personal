@@ -72,10 +72,10 @@ export default function JiraPrivacy() {
                     </p>
                     <p className="text-slate-700">
                         <a
-                            href="mailto:bartek.bordeaux@gmail.com"
+                            href="mailto:support@networthview.net"
                             className="text-emerald-700 hover:text-emerald-800 underline"
                         >
-                            bartek.bordeaux@gmail.com
+                            support@networthview.net
                         </a>
                     </p>
                 </div>

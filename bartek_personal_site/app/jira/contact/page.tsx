@@ -15,12 +15,14 @@ export default function JiraContact() {
                         Email me
                     </h2>
                     <a
-                        href="mailto:bartek.bordeaux@gmail.com"
+                        href="mailto:support@networthview.net"
                         className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                     >
-                        bartek.bordeaux@gmail.com
+                        support@networthview.net
                     </a>
-                    <p>for bug report or feature request.</p>
+                    <p className="text-slate-700 mt-4">
+                        for bug report or feature request.
+                    </p>
                 </div>
             </div>
         </div>

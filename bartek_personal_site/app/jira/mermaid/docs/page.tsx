@@ -202,12 +202,14 @@ export default function JiraMermaidDocs() {
                     <h2 className="text-2xl font-semibold mb-4 text-emerald-700">
                         Supported diagrams
                     </h2>
-                    <p className="text-slate-700">
-                        Every diagram type in Mermaid 11: architecture, block, C4, class, entity
-                        relationship, flowchart, flowchart-elk, Gantt, gitGraph, info, journey,
-                        kanban, mindmap, packet, pie, quadrant chart, radar, requirement, sankey,
-                        sequence, state, timeline, treemap, XY chart and ZenUML.
+                    <p className="text-slate-700 mb-4">
+                        Every diagram type in Mermaid 11: architecture, block, C4, class, Cynefin,
+                        entity relationship, event modelling, flowchart, flowchart-elk, Gantt,
+                        gitGraph, info, Ishikawa, journey, kanban, mind map, packet, pie, quadrant
+                        chart, radar, railroad, requirement, sankey, sequence, state, swimlane,
+                        timeline, treemap, tree view, Venn, Wardley map and XY chart.
                     </p>
+
                 </div>
 
                 <div className="mb-10">
@@ -281,11 +283,12 @@ export default function JiraMermaidDocs() {
                         Support
                     </h2>
                     <p className="text-slate-700">
+                        Bug reports and feature requests:{' '}
                         <a
-                            href="mailto:bartek.bordeaux@gmail.com"
+                            href="mailto:support@networthview.net"
                             className="text-emerald-700 hover:text-emerald-800 underline"
                         >
-                            bartek.bordeaux@gmail.com
+                            support@networthview.net
                         </a>
                     </p>
                 </div>
